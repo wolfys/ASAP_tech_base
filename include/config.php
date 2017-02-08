@@ -3,8 +3,8 @@ $dbhost = 'localhost';
 $dbuser = 'web';
 $dbpass = 'WbJzBRCC5LPAfpBb';
 
-$conn = mysql_connect($dbhost, $dbuser, $dbpass) or die ('Íå âîçìîæíî ïîäêëþ÷èòüñÿ ê MySQL');
+$conn = mysql_connect($dbhost, $dbuser, $dbpass) or die ('ÐÐµ Ð²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾ Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡Ð¸Ñ‚ÑŒÑÑ Ðº MySQL');
 
 $dbname = 'techbase';
-mysql_select_db($dbname) or die ('Íå âîçìîæíî ïîäêëþ÷èòüñÿ ê áàçå äàííûõ');
+mysql_select_db($dbname) or die ('ÐÐµ Ð²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾ Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡Ð¸Ñ‚ÑŒÑÑ Ðº Ð±Ð°Ð·Ðµ Ð´Ð°Ð½Ð½Ñ‹Ñ…');
 ?>
